@@ -1,0 +1,13 @@
+<header>
+    <div class="logo-small">
+        <img src="/favicon.ico" alt="very cute image" width="100">
+    </div>
+    <div class="contact">
+        {{ range .Site.Menus.main }}
+        <a class="button" href="{{ .URL }}">
+            {{ $text := print .Name | safeHTML }}
+            {{ $text }}
+        </a>
+        {{ end }}
+    </div>
+</header>

@@ -6,6 +6,7 @@ header {
     overflow: hidden;
     display: block;
     position: fixed;
+    top: 0;
     background-color: lightpink;
 
     width: 100%;

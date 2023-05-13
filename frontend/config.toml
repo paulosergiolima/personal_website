@@ -1,7 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://kinipk.moe/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "fumoPink"
+title = 'Kinipk Site'
 
 [menu]
     [[menu.main]]
@@ -10,8 +9,8 @@ theme = "fumoPink"
         url = "/"
         weight = 1
     [[menu.main]]
-        name = "Posts"
-        pre = "pen-tool"
+        name = "List"
+        pre = "list"
         url = "/posts/"
         weight = 2
     [[menu.main]]
