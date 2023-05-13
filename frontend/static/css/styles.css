@@ -101,9 +101,6 @@ main {
     text-decoration: none;
 }
 
-.summary:hover {
-    background-color: white;
-}
 
 .summary:link:active {
     text-decoration: none;
@@ -117,10 +114,8 @@ main {
     text-decoration: none;
 }
 
-.title:hover {
-    background-color: #B33775;
-}
 
 .title:link:active {
     text-decoration: none;
 }
+
